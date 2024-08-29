@@ -1,18 +1,18 @@
 module.exports.config = {
-  name: "girldp",
+  name: "hotgirl",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "PREM BABU",
-  description: "Girl Dp photos",
+  description: "hot girls photos",
   commandCategory: "Random-IMG",
-  usages: "girl dp",
+  usages: "Hot Girl",
   cooldowns: 2,
   dependencies: {
     "request":"",
     "fs-extra":"",
     "axios":""
   }
-    
+
 };
 
 module.exports.run = async({api,event,args,Users,Threads,Currencies}) => {
@@ -20,8 +20,8 @@ const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
     var link = [
-"https://i.imgur.com/GWvWrOU.jpg","https://i.imgur.com/HlsXDDh.jpg","https://i.imgur.com/IAK2mhm.jpg","https://i.imgur.com/EXsKLRr.jpg","https://i.imgur.com/48lKPK9.jpg","https://i.imgur.com/ylJhQiH.jpg","https://i.imgur.com/aGalyKj.jpg","https://i.imgur.com/EE8hhkl.jpg","https://i.imgur.com/fz4sU7e.jpg","https://i.imgur.com/ucHzYiJ.jpg","https://i.imgur.com/LX1iD04.jpg","https://i.imgur.com/Vr0x1nz.jpg","https://i.imgur.com/voUwxl9.jpg","https://i.imgur.com/8aJed5B.jpg","https://i.imgur.com/GCoJji2.jpg","https://i.imgur.com/3YzAYEm.jpg","https://i.imgur.com/g5o6cgR.jpg","https://i.imgur.com/mojVpEc.jpg","https://i.imgur.com/DWYoD7c.jpg","https://i.imgur.com/kCpgGjm.jpg","https://i.imgur.com/1ndfYuz.jpg","https://i.imgur.com/nzh5pjU.jpg","https://i.imgur.com/Jcdlar4.jpg","https://i.imgur.com/3SFW45P.jpg","https://i.imgur.com/fLXfa8i.jpg","https://i.imgur.com/SdeIlFK.jpg","https://i.imgur.com/Qooddnp.jpg","https://i.imgur.com/vVMjMx6.jpg","https://i.imgur.com/PRQSD8f.jpg","https://i.imgur.com/SPP99U6.jpg","https://i.imgur.com/HUPpY8i.jpg","https://i.imgur.com/OKqotRw.jpg","https://i.imgur.com/5EVpoUc.jpg","https://i.imgur.com/hI9hvUb.jpg","https://i.imgur.com/tHsUF0Z.jpg","https://i.imgur.com/GllqyhW.jpg","https://i.imgur.com/HIe8w87.jpg","https://i.imgur.com/j2o6kNE.jpg","https://i.imgur.com/rfWnE0b.jpg","https://i.imgur.com/Pn4Ss7P.jpg","https://i.imgur.com/ZV2YKOC.jpg","https://i.imgur.com/vd5mp5W.jpg","https://i.imgur.com/SWauVPx.jpg","https://i.imgur.com/BjFbpH6.jpg","https://i.imgur.com/9T7OfNl.jpg","https://i.imgur.com/Y1Fk2sC.jpg","https://i.imgur.com/rhpuHvM.jpg","https://i.imgur.com/Oiqesz0.jpg","https://i.imgur.com/f3z1yxd.jpg","https://i.imgur.com/BxH5NYW.jpg","https://i.imgur.com/Sc5hSaH.jpg","https://i.imgur.com/HSwfPgj.jpg","https://i.imgur.com/TU4ejfq.jpg","https://i.imgur.com/cQ6SVmx.jpg"
-     ];
-     var callback = () => api.sendMessage({body:`🌸===『*★𝗖𝗿𝗲𝗱𝗶𝘁'𝘀 𒁍आदि बाबू`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
-      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback());
-   };
+"https://i.imgur.com/W1QtVxm.jpeg","https://i.imgur.com/0mjQW3T.jpeg","https://i.imgur.com/lWEkGlr.jpeg","https://i.imgur.com/ppJHIpb.jpeg","https://i.imgur.com/NkEZ7ya.jpeg","https://i.imgur.com/gFaISHO.jpeg","https://i.imgur.com/m39H7a2.jpeg","https://i.imgur.com/WojjoVv.jpeg","https://i.imgur.com/hqJ7HCZ.jpeg","https://i.imgur.com/g7dNYxR.jpeg","https://i.imgur.com/eNyOG2v.jpeg","https://i.imgur.com/2qqsoXz.jpeg","https://i.imgur.com/tq6wtrO.jpeg","https://i.imgur.com/qHaQqX0.jpeg","https://i.imgur.com/ZR5Hm1I.jpeg","https://i.imgur.com/nrEvhAC.jpeg","https://i.imgur.com/mn6AAnH.jpeg","https://i.imgur.com/2aG32pz.jpeg","https://i.imgur.com/PWOV3bP.jpeg","https://i.imgur.com/Qt8511N.jpeg","https://i.imgur.com/ykS0S5z.jpeg","https://i.imgur.com/P6uZUF7.jpeg","https://i.imgur.com/AcqZ5It.jpeg","https://i.imgur.com/Xp82D81.jpeg","https://i.imgur.com/dggKc1D.jpeg","https://i.imgur.com/FAIaALf.jpeg","https://i.imgur.com/lNeDjYF.jpeg","https://i.imgur.com/HFipSyl.jpeg","https://i.imgur.com/Z999bfk.jpeg","https://i.imgur.com/ntCL39i.jpeg","https://i.imgur.com/mNwyVqZ.jpeg","https://i.imgur.com/GuuGzuP.jpeg","https://i.imgur.com/b5C4Ilm.jpeg","https://i.imgur.com/NAffKom.jpeg","https://i.imgur.com/4cIrOZO.jpeg","https://i.imgur.com/l7XkUBE.jpeg","https://i.imgur.com/jgzi6Bq.jpeg","https://i.imgur.com/S1StP3a.jpeg","https://i.imgur.com/HIB1WDK.jpeg"
+         ];
+         var callback = () => api.sendMessage({body:`💝💝💝`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
+          return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback());
+       };
