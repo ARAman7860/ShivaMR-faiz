@@ -13,7 +13,7 @@
     "PASSWORD": "",
     "OTPKEY": "",
     "BOTNAME": "SHIVA BOT",
-    "PREFIX": "#",
+    "PREFIX": "0",
     "OTHERBOT": [
         ""
     ],
